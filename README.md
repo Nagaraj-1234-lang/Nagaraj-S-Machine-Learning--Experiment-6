@@ -50,10 +50,10 @@ PCA finds orthogonal directions of maximal variance (eigenvectors of covariance 
 
 
 
+### INPUT : 
+
+
 ```
-
-INPUT : 
-
 # EXPERIMENT 6
 from sklearn.decomposition import PCA
 from sklearn.datasets import load_iris
@@ -68,16 +68,16 @@ print('Explained variance ratio:',
 plt.scatter(Z[:,0], Z[:,1], c=y, cmap='viridis'); plt.xlabel('PC1');
 plt.ylabel('PC2'); plt.title('PCA of Iris'); plt.show()
 
-
-
-
-
-
-
-
-OUTPUT:
-
 ```
+
+
+
+
+
+
+### OUTPUT:
+
+
 <img width="578" height="455" alt="image" src="https://github.com/user-attachments/assets/ca7e8b66-1413-4f00-a399-b92794c78ece" />
 
 
